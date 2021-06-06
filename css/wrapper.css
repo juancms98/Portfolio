@@ -1,0 +1,10 @@
+/* Tener en cuenta: No todos los proyectos manejan wrapper al principio, es decir, podemos observar que éste proyecto todo el contenido respeta el wrapper y se puede colocar al principio */
+
+.wrapper {
+  max-inline-size: 1158px;
+  padding-inline-end: 16px;
+  padding-inline-start: 16px;
+  margin: auto;
+}
+
+/* Para centrar un elemento de bloque se utiliza margin: auto */

@@ -1,0 +1,35 @@
+@import "./button.css";
+@import "./button-icon.css";
+@import "./header.css";
+@import "./hero.css";
+@import "./wrapper.css";
+
+/* Hoja de estilo base */
+:root {
+  --fontBase: Poppins, sans-serif;
+  --headLine1: bold 95px/154px var(--fontBase);
+  --headLine2: bold 59px/95px var(--fontBase);
+  --headLine3: bold 48px/78px var(--fontBase);
+  --headLine4: bold 34px/55px var(--fontBase);
+  --headLine5: bold 24px/39px var(--fontBase);
+  --body1: 16px/26px var(--fontBase);
+  --body2: 14px/23px var(--fontBase);
+  --button: bold 14px/23px var(--fontBase);
+  --caption: 12px/19px var(--fontBase);
+  --gradient: background: #2980B9;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #FFFFFF, #6DD5FA, #2980B9);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #FFFFFF, #6DD5FA, #2980B9);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  --primaryColor: #0F0A0A;
+  --secondaryColor: #42E2B8;
+  --deleteMargin: 0;
+}
+
+body {
+  background-color: var(--gradient);
+  min-block-size: 100vh;
+  font: var(--fontBase);
+  color: var(--primaryColor);
+}
