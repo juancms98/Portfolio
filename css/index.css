@@ -3,6 +3,8 @@
 @import "./header.css";
 @import "./hero.css";
 @import "./wrapper.css";
+@import "./menu.css";
+@import "./coment.css";
 
 /* Hoja de estilo base */
 :root {
@@ -12,6 +14,7 @@
   --headLine3: bold 48px/78px var(--fontBase);
   --headLine4: bold 34px/55px var(--fontBase);
   --headLine5: bold 24px/39px var(--fontBase);
+  --coment: 24px/39px var(--fontBase);
   --body1: 16px/26px var(--fontBase);
   --body2: 14px/23px var(--fontBase);
   --button: bold 14px/23px var(--fontBase);

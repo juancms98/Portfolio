@@ -3,4 +3,8 @@
   justify-content: space-between;
   align-items: center;
   block-size: 80px;
+  position: sticky;
+  top: 0;
+  /* Con esta propiedad podemos crear un efecto como borroso */
+  backdrop-filter: blur(10px);
 }
