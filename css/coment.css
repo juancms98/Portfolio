@@ -1,9 +1,18 @@
 .coment {
-  border: 1px solid red;
   display: inline-block;
 }
 
 .coment-top p {
   font: var(--coment);
   text-align: center;
+}
+
+.coment-bottom p {
+  font: var(--headLine5);
+  text-align: center;
+}
+
+.coment-arrow img {
+  display: block;
+  margin: auto;
 }
