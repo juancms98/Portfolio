@@ -1,0 +1,14 @@
+.testimony {
+  border: 1px solid red;
+}
+
+.testimony-title {
+background-color: var(--secondaryColor);
+align-self: flex-start;
+}
+
+.testimony-description {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
