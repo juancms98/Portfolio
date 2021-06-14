@@ -6,6 +6,8 @@
 @import "./menu.css";
 @import "./coment.css";
 @import "./testimony.css";
+@import "./social.css";
+@import "./footer.css";
 
 /* Hoja de estilo base */
 :root {
@@ -36,4 +38,5 @@ body {
   min-block-size: 100vh;
   font: var(--fontBase);
   color: var(--primaryColor);
+  margin: var(--deleteMargin);
 }
