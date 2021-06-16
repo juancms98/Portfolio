@@ -1,0 +1,35 @@
+.card {
+  background: rgba(255, 255, 255, 0.247);
+  /* backdrop-filter: blur(39.7657px); */
+  border-radius: 24px;
+  padding-block-start: 24px;
+  padding-block-end: 24px;
+  padding-inline-start: 24px;
+  padding-inline-end: 24px;
+  gap: 24px;
+}
+
+.card-image img {
+  display: block;
+  margin: auto;
+  border-radius: 50%;
+}
+
+.card-text_top {
+  display: flex;
+  font: var(--coment);
+  text-align: center;
+}
+
+.card-text_bottom {
+  display: flex;
+  font: var(--caption);
+  justify-content: center;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .card {
+    border-radius: 24px;
+  }
+}
