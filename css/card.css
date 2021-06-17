@@ -7,6 +7,7 @@
   padding-inline-start: 24px;
   padding-inline-end: 24px;
   gap: 24px;
+  max-inline-size: 1130px;
 }
 
 .card-image img {
@@ -17,7 +18,7 @@
 
 .card-text_top {
   display: flex;
-  font: var(--coment);
+  font: var(--headLine4);
   text-align: center;
 }
 

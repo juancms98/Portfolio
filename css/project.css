@@ -1,50 +1,37 @@
-.testimony {
+.project {
   /* border: 1px solid red; */
   padding-block-start: 40px;
   padding-block-end: 40px;
 }
 
-.testimony-title {
-background-color: var(--secondaryColor);
-color: var(--primaryColor);
-align-self: flex-start;
-font: var(--headLine5);
-padding-block-start: 4px;
-padding-block-end: 4px;
-padding-inline-start: 8px;
-padding-inline-end: 8px;
-text-decoration: none;
-/* margin-inline-start: 4px; */
-box-shadow: -4px 4px 0 #FFFFFF;
-}
-
-.testimony-image img {
+.project-image img {
   max-inline-size: 100%;
 }
 
-.testimony-description {
+.project-description {
   display: flex;
   flex-direction: column;
   gap: 16px;
 }
 
-.testimony-description p {
+.project-description p {
   font: var(--body1);
 }
 
 @media screen and (min-width: 768px) {
-  .testimony {
+  .project {
     display: flex;
     align-items: center;
+    gap: 32px;
     padding-block-start: 80px;
     padding-block-end: 80px;
   }
-  .testimony-description {
+  .project-description {
     flex: 1;
   }
 
   /* odd significa que me selecciona solo les elementos impares */
-  .testimony-image{
+  .project-image{
     order: 2;
     flex: 1;
     text-align: center;

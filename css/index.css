@@ -5,8 +5,10 @@
 @import "./wrapper.css";
 @import "./menu.css";
 @import "./coment.css";
-@import "./testimony.css";
+@import "./project.css";
+@import "./title.css";
 @import "./card.css";
+@import "form.css";
 @import "./social.css";
 @import "./footer.css";
 

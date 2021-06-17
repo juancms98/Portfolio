@@ -13,24 +13,28 @@
     />
   </head>
   <body>
+    <header class="header">
+      <div class="wrapper">
+        <div class="header-content">
+          <img src="./img/logo.png" width="70" height="81" alt="Logo" />
+          <nav aria-label="main-navigation" class="menu">
+            <ul>
+              <li>
+                <a class="is-active" href="#main">Inicio</a>
+              </li>
+              <li>
+                <a href="#project">Proyectos</a>
+              </li>
+              <li>
+                <a href="#contact">Hablemos</a>
+              </li>
+            </ul>
+          </nav>
+          <button class="button">Currículum</button>
+        </div>
+      </div>
+    </header>
     <div class="wrapper">
-      <header class="header">
-        <img src="./img/logo.png" width="70" height="81" alt="Logo" />
-        <nav aria-label="main-navigation" class="menu">
-          <ul>
-            <li>
-              <a class="is-active" href="#main">Inicio</a>
-            </li>
-            <li>
-              <a href="#project">Proyectos</a>
-            </li>
-            <li>
-              <a href="#contact">Hablemos</a>
-            </li>
-          </ul>
-        </nav>
-        <button class="button">Currículum</button>
-      </header>
       <section aria-label="main" class="hero" id="main">
         <div class="hero-image">
           <img src="./img/user.png" width="338" height="330" alt="" />
@@ -87,12 +91,12 @@
           <img src="./icons/icons-down.svg" width="80" height="80" />
         </div>
       </section>
-      <div class="testimony">
-        <div class="testimony-image">
+      <div class="project" id="project">
+        <div class="project-image">
           <img src="./img/img.png" alt="macbook">
         </div>
-        <div class="testimony-description">
-          <a class="testimony-title" href="#" target="_blank">Portafolio Digital Profesional</a>
+        <div class="project-description">
+          <a class="title" href="#" target="_blank">Portafolio Digital Profesional</a>
           <p>Accede a más de 120 proyectos que te ayudarán a mejorar
           tus habilidades como desarrollador Front-End.</p>
           <a href="#" class="button is-secondary" target="_blank">Ver Código</a>
@@ -111,39 +115,61 @@
             <p>LEONIDAS ESTEBAN / COFUNDADOR Y CEO LEONIDASESTEBAN.COM</p>
           </div>
       </section>
+      <form action="" method="POST" class="form" id="contact">
+        <div class="form-content">
+          <h2 class="title">Hablemos</h2>
+          <p>Si está interesado en trabajar conmigo en su próximo proyecto,
+          no dude en ponerse en contacto conmigo.</p>
+          <label for="form-name">
+            Nombre Completo
+            <input required type="text" name="name" id="form-name" placeholder="Juan">
+          </label>
+          <label for="form-email">
+            Correo electrónico
+            <input required type="email" name="email" id="form-email" placeholder="juan@gmail.com">
+          </label>
+          <label for="form-message">
+            Mensaje
+            <textarea required name="message" id="form-message" cols="30" rows="7"></textarea>
+          </label>
+          <button class="button" type="submit">Enviar Mensaje</button>
+        </div>
+      </form>
       <footer class="footer">
-        <div class="footer-logo">
-          <img src="./img/logo.png" width="70" height="81" alt="Logo" />
-        </div>
-        <div class="social">
-          <a
-            class="button-icon"
-            href="https://www.linkedin.com/in/juancms98/"
-            target="_blank"
-            ><img src="./icons/linkedin-icon-1 1.svg"
-          /></a>
-          <a
-            class="button-icon"
-            href="https://www.github.com/juancms98/"
-            target="_blank"
-            ><img src="./icons/icon-github.svg"
-          /></a>
-          <a
-            class="button-icon"
-            href="https://www.instagram.com/juancms98/"
-            target="_blank"
-            ><img src="./icons/icon-instagram.svg"
-          /></a>
-          <a
-            class="button-icon"
-            href="https://www.twitter.com/juancms98/"
-            target="_blank"
-            ><img src="./icons/icon-twitter_squared.svg"
-          /></a>
-        </div>
-        <div class="footer-copyrigth">
-          <p>Hecho con pasión por Juan Montilla.</p>
-          <p> Copyright 2021 - Todos los derechos reservados.</p>
+        <div class="footer-content">
+          <div class="footer-logo">
+            <img src="./img/logo.png" width="70" height="81" alt="Logo" />
+          </div>
+          <div class="social">
+            <a
+              class="button-icon"
+              href="https://www.linkedin.com/in/juancms98/"
+              target="_blank"
+              ><img src="./icons/linkedin-icon-1 1.svg"
+            /></a>
+            <a
+              class="button-icon"
+              href="https://www.github.com/juancms98/"
+              target="_blank"
+              ><img src="./icons/icon-github.svg"
+            /></a>
+            <a
+              class="button-icon"
+              href="https://www.instagram.com/juancms98/"
+              target="_blank"
+              ><img src="./icons/icon-instagram.svg"
+            /></a>
+            <a
+              class="button-icon"
+              href="https://www.twitter.com/juancms98/"
+              target="_blank"
+              ><img src="./icons/icon-twitter_squared.svg"
+            /></a>
+          </div>
+          <div class="footer-copyrigth">
+            <p>Hecho con pasión por Juan Montilla.</p>
+            <p> Copyright 2021 - Todos los derechos reservados.</p>
+          </div>
         </div>
       </footer>
     </div>
