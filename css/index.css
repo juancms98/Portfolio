@@ -15,14 +15,17 @@
 /* Hoja de estilo base */
 :root {
   --fontBase: Poppins, sans-serif;
+  --fontSecondary: Oxygen, sans-serif;
   --headLine1: bold 95px/154px var(--fontBase);
   --headLine2: bold 59px/95px var(--fontBase);
   --headLine3: bold 48px/78px var(--fontBase);
   --headLine4: bold 34px/55px var(--fontBase);
   --headLine5: bold 24px/39px var(--fontBase);
-  --coment: 24px/39px var(--fontBase);
+  --coment: 34px/55px var(--fontSecondary);
+  --coment2: 24px/39px var(--fontBase);
   --body1: 16px/26px var(--fontBase);
   --body2: 14px/23px var(--fontBase);
+  --card: 16px/26px var(--fontSecondary);
   --button: bold 14px/23px var(--fontBase);
   --caption: 12px/19px var(--fontBase);
   --gradient: background: #2980B9;
@@ -34,6 +37,10 @@
   --primaryColor: #0F0A0A;
   --secondaryColor: #42E2B8;
   --deleteMargin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 body {

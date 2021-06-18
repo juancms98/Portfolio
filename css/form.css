@@ -16,6 +16,7 @@
 
 .form p {
   color: var(--primaryColor);
+  font: var(--body1);
   margin: 0;
   text-align: center;
 }
