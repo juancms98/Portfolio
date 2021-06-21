@@ -20,6 +20,7 @@
 .card-text_top {
   display: flex;
   font: var(--card);
+  justify-content: center;
   text-align: center;
 }
 
