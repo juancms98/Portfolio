@@ -14,6 +14,10 @@
   padding: 0;
 }
 
+  .footer-copyrigth{
+    color: var(--tertiaryColor);
+  }
+
 @media screen and (min-width: 768px) {
   .footer-logo {
     display: block;
@@ -30,7 +34,8 @@
 @media screen and (min-width: 1024px) {
   .footer-copyrigth{
     display: flex;
-    gap: 8px
+    gap: 8px;
+    color: var(--tertiaryColor);
   }
   .footer {
     margin-block-start: 40px;
