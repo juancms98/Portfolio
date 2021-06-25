@@ -22,6 +22,7 @@
   font: var(--card);
   justify-content: center;
   text-align: center;
+  color: var(--tertiaryColor);
 }
 
 .card-text_bottom {
@@ -29,6 +30,7 @@
   font: var(--caption);
   justify-content: center;
   text-align: center;
+  color: var(--tertiaryColor);
 }
 
 @media screen and (min-width: 540px) {
@@ -41,8 +43,10 @@
     font: var(--headLine4);
     text-align: center;
     justify-content: center;
+    color: var(--tertiaryColor);
   }
   .card-text_bottom {
     font: var(--headLine5);
+    color: var(--tertiaryColor);
   }
 }
