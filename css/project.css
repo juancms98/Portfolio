@@ -16,7 +16,7 @@
 
 .project-description p {
   font: var(--body1);
-  color: var(--tertiaryColor);
+  color: var(--primaryColor);
 }
 
 @media screen and (min-width: 768px) {
@@ -29,7 +29,7 @@
   }
   .project-description {
     flex: 1;
-    color: var(--tertiaryColor);
+    color: var(--primaryColor);
   }
 
   /* odd significa que me selecciona solo les elementos impares */

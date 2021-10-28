@@ -34,14 +34,14 @@
   /* Chrome 10-25, Safari 5.1-6 */
   /* background: linear-gradient(to bottom, #FFFFFF, #6DD5FA, #2980B9); */
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  --gradient: background: #000046;
+  --gradient: background: #E0EAFC;
   /* fallback for old browsers */
-  background: -webkit-linear-gradient(to bottom, #1CB5E0, #000046);
+  background: -webkit-linear-gradient(to top, #CFDEF3, #E0EAFC);
   /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to bottom, #1CB5E0, #000046);
+  background: linear-gradient(to top, #CFDEF3, #E0EAFC);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   --primaryColor: #0F0A0A;
-  --secondaryColor: #42E2B8;
+  --secondaryColor: #42a5f5;
   --tertiaryColor: #FFFFFE;
   --deleteMargin: 0;
 }

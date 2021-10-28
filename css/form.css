@@ -15,7 +15,7 @@
 }
 
 .form p {
-  color: var(--tertiaryColor);
+  color: var(--primaryColor);
   font: var(--body1);
   margin: 0;
   text-align: center;
@@ -25,7 +25,7 @@
   display: flex;
   flex-direction: column;
   font: var(--button);
-  color: var(--tertiaryColor);
+  color: var(--primaryColor);
 }
 
 .form input, .form textarea {

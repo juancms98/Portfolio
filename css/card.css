@@ -1,5 +1,5 @@
 .card {
-  background: rgba(255, 255, 255, 0.247);
+  background: rgba(255, 255, 255, 0.555);
   /* backdrop-filter: blur(39.7657px); */
   border-radius: 24px;
   padding-block-start: 24px;
@@ -22,7 +22,7 @@
   font: var(--card);
   justify-content: center;
   text-align: center;
-  color: var(--tertiaryColor);
+  color: var(--primaryColor);
 }
 
 .card-text_bottom {
@@ -30,7 +30,7 @@
   font: var(--caption);
   justify-content: center;
   text-align: center;
-  color: var(--tertiaryColor);
+  color: var(--primaryColor);
 }
 
 @media screen and (min-width: 540px) {
@@ -43,10 +43,10 @@
     font: var(--headLine4);
     text-align: center;
     justify-content: center;
-    color: var(--tertiaryColor);
+    color: var(--primaryColor);
   }
   .card-text_bottom {
     font: var(--headLine5);
-    color: var(--tertiaryColor);
+    color: var(--primaryColor);
   }
 }

@@ -15,7 +15,7 @@
 }
 
   .footer-copyrigth{
-    color: var(--tertiaryColor);
+    color: var(--primaryColor);
   }
 
 @media screen and (min-width: 768px) {
@@ -35,7 +35,7 @@
   .footer-copyrigth{
     display: flex;
     gap: 8px;
-    color: var(--tertiaryColor);
+    color: var(--primaryColor);
   }
   .footer {
     margin-block-start: 40px;
