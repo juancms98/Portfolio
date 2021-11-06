@@ -55,3 +55,12 @@ const typed4 = new Typed('#form-message', {
   attr: 'placeholder',
   bindInputFocusEvents: true,
 })
+
+const menuItem = document.querySelectorAll('ul li a');
+menuItem.forEach(element => {
+  element.addEventListener('click', function () {
+    menuItem.forEach(list => list.classList.remove('is-active'));
+
+    this.classList.add('is-active');
+  })
+})
