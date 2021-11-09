@@ -49,6 +49,6 @@
 @media screen and (min-width: 1024px) {
   .hero-image img {
     inline-size: 500px;
-    block-size: 536px;
+    block-size: 500px;
   }
 }
