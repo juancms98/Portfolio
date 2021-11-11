@@ -2,17 +2,17 @@
 
 const typed = new Typed('.typed', {
   strings: [
-    'Soy Juan Montilla',
     'Soy un frontend Developer',
-    'Apasionado por el mundo de la web'
+    'Apasionado por el mundo de la web',
+    'Soy Juan Montilla'
   ],
-  typeSpeed: 70,
+  typeSpeed: 75,
   startDelay: 300,
   backSpeed: 58,
   shuffle: false,
   backDelay: 1500,
   loop: true,
-  loopCount: false,
+  loopCount: 2,
   showCursor: true,
   cursorChar: '_',
 });

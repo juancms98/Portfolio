@@ -50,5 +50,7 @@
   .hero-image img {
     inline-size: 510px;
     block-size: 500px;
+    width: 500px;
+    height: auto;
   }
 }

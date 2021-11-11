@@ -12,9 +12,16 @@
   box-shadow: -4px 4px 14px rgba(0, 0, 0, 0.25);
   text-decoration: none;
   text-align: center;
+  cursor: pointer;
 }
 
 .button.is-secondary {
   background-color: unset;
   border: 2px solid var(--primaryColor);
+}
+
+.button:hover {
+  background-color: var(--secondaryColor);
+  transition: .4s ease all;
+  color: var(--tertiaryColor);
 }
