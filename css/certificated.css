@@ -1,0 +1,7 @@
+.certificated{
+  /* border: 1px red solid; */
+  background-color: var(--gradient);
+  padding-block-start: 80px;
+  padding-block-end: 80px;
+}
+

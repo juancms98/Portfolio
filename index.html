@@ -12,6 +12,7 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&Oxygen:wght@300;700&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
   </head>
   <body>
     <header class="header">
@@ -25,6 +26,9 @@
               </li>
               <li>
                 <a href="#project">Proyectos</a>
+              </li>
+              <li>
+                <a href="#certificated">Certificados</a>
               </li>
               <li>
                 <a href="#contact">Hablemos</a>
@@ -135,6 +139,39 @@
             <p> ING. BEATRIZ OVALDO / VICEPRESIDENTA DE INGENIERÍA Y TRANSFORMACIÓN DE SEGUROS LA OCCIDENTAL </p>
           </div>
       </section>
+      <section class="coment">
+        <div class="coment-bottom">
+          <p>¡En esta sección se encuentra gran parte de los cursos que he aprobado a lo largo de mi carrera!</p>
+        </div>
+        <div class="coment-arrow">
+          <img src="./icons/icons-down.svg" width="80" height="80" />
+        </div>
+      </section>
+      <section class="certificated" id="certificated">
+        <div class="swiper swiperCertificated">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="./img/certificado.png" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./img/diploma-marca-personal-1.png" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./img/certificado_de_figma_para_frontend-1.png" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./img/diploma-estrategias-ingles-1.png" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./img/CertificadoDeFinalizacion_Como encontrar un trabajo a distancia-1.png" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./img/Juan CarlosMontilla Sanchez-NDG Linux Unhatc-certificate-1.png" />
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </section>
       <form  action="https://formspree.io/f/xvodrydq" method="POST" class="form" id="contact">
         <div class="form-content">
           <h2 class="title">Hablemos</h2>
@@ -197,5 +234,7 @@
     <script src="./src/typed.js"></script>
     <script src="./src/form.js"></script>
     <script src="./src/main.js"></script>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="./src/swiper.js"></script>
   </body>
 </html>
